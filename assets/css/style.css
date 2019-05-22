@@ -177,3 +177,45 @@ main-content (portfolio)
 /*
 site footer
 */
+
+/*
+media query
+*/
+
+@media only screen and (max-width: 500px){
+
+    .site-header-logo {
+        font-size: 5em;
+    }
+
+    .brand-info-item--link {
+        display: none;
+    }
+
+    .main-content-container {
+        width: 400px;
+    }
+
+    .main-crystal-img {
+        height: auto;
+    }
+    .about-me-text {
+        width: 350px;
+    }
+
+    .portfolio-list {
+        width: 350px;
+        display: inline-block;
+        margin-right: 75px;
+    }
+
+    .portfolio-list a {
+        margin-left: 20px;
+    }
+
+    .portfolio-crystal-img {
+        width: 350px;
+        height: auto;
+        text-align: center;
+    }
+}
